@@ -1,0 +1,19 @@
+# Vim Golang Open Testfile
+
+Golang Open Testfinle requires Vim 7 or higher is comprised of 2 files:
+
+    plugin/golang-open-testfile.vim
+    ftplugin/go.vim
+
+### Classic Install
+
+1. Extract the plugin files into your **[VIM_ROOT]**/plugin and **[VIM_ROOT]**/doc folders respectively.
+
+### Pathogen Install
+1. Navigate to your **[VIM_ROOT]/bundle** directory in your local Vim setup
+2. git clone https://github.com/mikepotter/vim-golang-open-testfile.git
+
+## Usage
+**:OT**
+Opens the test file for the currently opened file in a vertical split window
+
